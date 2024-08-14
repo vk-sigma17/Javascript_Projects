@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top {
+    background-image: url(side.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+}
+#bottom {
+    background-image: url(road.jpg);
+}
+img {
+    width: 150px;
+}
+#btn {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    padding-top: 50px;
+}
+button {
+    width: 100px;
+    padding: 5px 20px;
+    background-color: yellow;
+    font-size: 20px;
+    border: none;
+}

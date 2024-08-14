@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: blue; 
+    border: 15px solid white;
+    font-family: 'Bakbak One', cursive;
+    /* background-image: url("background.jpg"); */
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    
+}
+.home, 
+.guest{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+h2{
+    font-size: 88px;
+    color: white;
+}
+.one, .two{
+    height: 240px;
+    width: 250px;
+    /* margin-left: 20px; */
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+p{
+    font-size: 120px;
+    color: red;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    
+}
+button {
+    width: 70px;
+    font-size: 20px;
+}
